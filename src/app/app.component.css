@@ -1,0 +1,44 @@
+
+.list {
+    padding: 10px;
+    border: 2px solid rgb(84, 139, 157);
+    background-color: rgb(160, 199, 228);
+    border-radius: 0 0 40px 40px;
+    margin: 5px;
+    transition: 0.5s;
+    width: 10%;
+    height: auto;
+    float: left;
+}
+
+.list:hover {
+    transform:scale(1.06);
+    z-index: 2;
+    background-color: rgb(255, 255, 255);
+}
+
+li {
+    list-style-type: none;
+}
+
+.input {
+    background-color: rgb(127, 168, 255);
+    margin: 0px;
+    border-top: 6px solid black;
+    border-left: 6px solid black;
+    border-right: 6px solid black;
+    margin: auto;
+    width: 70%;
+    position: relative;
+}
+
+.selected {
+    background-color: rgb(93, 122, 186);
+    margin: 0px;
+    border-bottom: 6px solid black;
+}
+
+h3 {
+    color: white;
+}
+

@@ -1,0 +1,7 @@
+<h2>Elérhető járművek:</h2>
+<ul>
+  <li *ngFor="let car of cars">
+    <span class="brand">{{ car.brand }} {{ car.model }}</span> - Ár: {{ car.pricePerDay }} Ft/nap
+    <button (click)="selectCar(car)">Kiválasztás</button>
+  </li>
+</ul>
